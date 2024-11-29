@@ -4,6 +4,28 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
+
+  input,
+  button,
+  select,
+  textarea {
+    cursor: pointer;
+  }
+
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    background: #f4f4f4;
+    color: #333;
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+  }
+
+  .skip-link:focus {
+    top: 0;
+  }
+  
   
   body {
     background-color: #f4f4f4;
