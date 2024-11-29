@@ -44,10 +44,10 @@
   }
 
   .search-bar {
-    display: flex;         /* Enable flexbox */
-    align-items: center;   /* Vertically align items in the center */ /* Space out the elements */
-    width: auto;           /* Full width on mobile */
-    padding: 8px;          /* Add padding around the search bar */
+    display: flex;         
+    align-items: center;   
+    width: auto;           
+    padding: 8px;          
     box-sizing: border-box;
   }
   
@@ -145,8 +145,8 @@
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 20px;
     text-align: center;
-    height: 80px;
-    width: 160px;
+    height: 6rem;
+    width: 10rem;
     transition: transform 0.3s ease;
     margin-bottom: 20px;
   }
@@ -217,7 +217,7 @@
   .product-photo {
    display: flex; 
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 5px;
     
   }
@@ -245,6 +245,10 @@
   .review img {
     width: 135px;
     height: 135px;
+  }
+
+  .product-photo-list {
+    list-style: none;
   }
   
   /* Handlekurv og checkout */
@@ -509,6 +513,40 @@
     .review img {
       width: 135px;
       height: 135px;
+    }
+
+    /* produktside */
+
+    .product-photo {
+      display: flex;
+      flex-direction: row;
+    
+      gap: 20px;
+      padding: 20px;
+    }
+    
+    .product-photo-list {
+      width: 60%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto;
+      gap: 10px;
+    }
+    
+    .product-photo-list li:first-child {
+      grid-column: 1 / -1; 
+      margin-bottom: 10px;
+    }
+    
+    .product-photo-list li img { 
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+    
+    .product-detail {
+      width: 40%;
+      padding: 20px;
     }
      
   }
