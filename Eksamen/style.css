@@ -227,6 +227,10 @@
     height: 100%;
   }
 
+  #anmeldelser {
+    margin-left: 20px;
+  }
+
   .review  {
     display: flex;
     flex-direction: column;
@@ -301,7 +305,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; /* Optional fixed height */
+    height: 100px; 
   }
 
   .payment-info {
@@ -493,7 +497,7 @@
     
     #reviews  {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
       padding: 10px;
       border: 0.5px solid rgb(202, 202, 202);
