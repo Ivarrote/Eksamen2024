@@ -560,5 +560,10 @@
       flex-direction: row;
       justify-content: space-evenly;
     }
+
+    #media{
+      display: flex;
+      flex-direction: row;
+    }
      
   }
