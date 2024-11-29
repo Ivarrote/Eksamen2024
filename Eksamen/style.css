@@ -44,10 +44,10 @@
   }
 
   .search-bar {
-    display: flex;         
-    align-items: center;   
-    width: auto;           
-    padding: 8px;          
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 8px;
     box-sizing: border-box;
   }
   
@@ -88,7 +88,7 @@
   
   /* Banner */
   .banner {
-    background-color: gray  ;
+    background-color: gray;
     color: black;
     text-align: center;
     padding: 50px 0;
@@ -425,16 +425,26 @@
       max-width: 1200px;
       justify-self: center;
     }
+
     header .search-cart {
       flex-direction: column;
       align-items: flex-start;
     }
 
-    #product-section {
+    header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-evenly;
+    }
 
+    header nav ul {
+      display: flex;
+      align-items: baseline;
+    }
+
+    #product-section {
       display: flex;
       justify-content: center;
-
     }
 
     
@@ -447,17 +457,13 @@
     }
 
     .product-card {
-
       max-width: 350px;
-
     }
     /* Forsøk på å gjenskape kategori sidene i skissene*/
     #popular-categories {
       display: flex;
       justify-content: center;
-      width: 1158px; 
-      
-
+      width: 1158px;
     }
     
     .category-cards {
@@ -547,6 +553,12 @@
     .product-detail {
       width: 40%;
       padding: 20px;
+    }
+
+    footer{
+      
+      flex-direction: row;
+      justify-content: space-evenly;
     }
      
   }
