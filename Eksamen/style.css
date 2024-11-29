@@ -274,10 +274,36 @@
   form fieldset {
     border: none;
   }
+
+  /*samme som i media quarries*/
   
-  .personal-info label {
+#form-label1 {
+    display: none;
     font-size: 18px;
   }
+
+  #form-label2 {
+    display: none;
+    font-size: 18px;
+  }
+
+  #form-label3 {
+    display: none;
+    font-size: 18px;
+  }
+
+  #form-label4 {
+    display: none;
+    font-size: 18px;
+  }
+
+  #form-label5 {
+    display: none;
+    font-size: 18px;
+  }
+
+  
+
   
   .personal-info input {
     padding: 8px;
@@ -587,11 +613,27 @@
       padding: 10px;
     }
 
+    /*flere shop basert på at repitisjon av ID gir warnings, men hjelper oppsettet på desktopen*/
+
     #shop {
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
     }
+
+    #shop1 {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    #shop2 {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    
     
     .product-card img {
       width: 200px;
@@ -652,13 +694,14 @@
     .form-field {
       flex: 1;
     }
-    
-    label {
+
+    #form-label {
       display: block;
       font-size: 0.9rem;
       font-weight: bold;
       margin-bottom: 5px;
     }
+    
     
     input[type="text"] {
       width: 100%;
@@ -694,6 +737,15 @@
     
     a:hover {
       text-decoration: underline;
+    }
+
+    .delivery-alternatives {
+      display: grid;
+      grid-template-columns: auto 1fr; 
+      grid-template-rows: repeat(3, auto); 
+      align-items: baseline;
+      gap: 10px 15px; 
+      
     }
 
 
