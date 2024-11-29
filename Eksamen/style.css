@@ -765,11 +765,11 @@
     
     a {
       display: block;
-      text-align: center;
       margin-top: 10px;
       font-size: 0.9rem;
       color: #007BFF;
       text-decoration: none;
+      line-height: 1.5;
     }
     
     a:hover {
