@@ -56,21 +56,53 @@
         </aside>
       </article>
     </section>
-
+    <div class="form-info">
     <section class="personal-info">
       <h3>2. DINE OPPLYSNINGER</h3>
       <form>
-        <label form="name">Leveringsadresse:</label>
-        <input type="text" id="firstname" required placeholder="Fornavn*">
-        <input type="text" id="lastname" required placeholder="Etternavn*">
-        <input type="text" id="address" required placeholder="Gateadresse*">
-        <input type="text" id="postal" required placeholder="Postnumber*">
-        <input type="text" id="post" required placeholder="Poststed*">
-        <button type="submit">Lagre</button>
-        <a href="#"> Avbryt</a>
+        <fieldset>
+          <legend>Leveringsadresse</legend>
+          <section class="form-row">
+            <span class="form-field">
+              <label for="firstname">Fornavn</label>
+              <input type="text" id="firstname" required placeholder="Fornavn*">
+            </span>
+            <span class="form-field">
+              <label for="lastname">Etternavn</label>
+              <input type="text" id="lastname" required placeholder="Etternavn*">
+            </span>
+          </section>
+        </fieldset>
+    
+        <fieldset>
+          <legend>Adresse</legend>
+          <section class="form-row">
+            <span class="form-field">
+              <label for="address">Gateadresse</label>
+              <input type="text" id="address" required placeholder="Gateadresse*">
+            </span>
+          </section>
+        </fieldset>
+    
+        <fieldset>
+          <legend>Postdetaljer</legend>
+          <section class="form-row">
+            <span class="form-field">
+              <label for="postal">Postnummer</label>
+              <input type="text" id="postal" required placeholder="Postnummer*">
+            </span>
+            <span class="form-field">
+              <label for="post">Poststed</label>
+              <input type="text" id="post" required placeholder="Poststed*">
+            </span>
+          </section>
+        </fieldset>
+    
+        <button class="info" type="submit">Lagre</button>
+        <a href="#">Avbryt</a>
       </form>
     </section>
-
+    </div>
     <section class="delivery">
       <h3>3. LEVERING</h3>
       <form class="delivery-alternatives">
