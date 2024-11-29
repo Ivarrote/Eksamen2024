@@ -227,7 +227,7 @@
     height: 100%;
   }
 
-  #review  {
+  .review  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
