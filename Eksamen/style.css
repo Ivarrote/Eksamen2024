@@ -562,6 +562,46 @@
      margin: 0 1rem 0 1rem;
     }
 
+    /*checkout side*/
+
+    .shopping-bag {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border: 1px groove; /*groove for tynn men synlig border*/
+    }
+    
+    .product-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    #shop {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .product-card img {
+      width: 200px;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .product-card aside {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .product-card aside p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
 
     footer{
       
