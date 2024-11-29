@@ -1,0 +1,14 @@
+Alejandro Escamilla (2013) MacBook Air near mug on table
+https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU
+
+
+Alexander Shustov (2013) woman holding white flower bouquet
+https://fastly.picsum.photos/id/64/4326/2884.jpg?hmac=9_SzX666YRpR_fOyYStXpfSiJ_edO3ghlSRnH2w09Kg
+
+
+Minstekrav (Karakter E):
+
+Opprettet tre HTML-dokumenter som start på hele oppgaven, med et CSS-dokument.
+Satt opp logisk og semantisk struktur basert på grunnleggende oppgavekrav for å kjøre en HTML-side, i tillegg til html basert på krav stilt ble CSS dannet i nærmest likhet til mobile-first designet vist i oppgavens skisser.
+ 
+Dannet tagger og seksjoner for både index.html, produkter.html og checkout.html etter oppgavebeskrivelsen (header, body, footer) + (Meny, Banner, Innhold - Produkter / Kategorier / Anmeldelser, Ingress, Kontakt, Snarveier, Sosiale-medier)
